@@ -1,0 +1,14 @@
+controladores:
+  - no manejan la logica de negocio
+  - escuchar las solicitudes del cliente y regresar una respuesta
+  - manejar la menor cantidad de logica
+
+services:
+  - es muy util que los servicios tengan "throw Error" asi los otros servicios
+  pueden llamarlos sin necesidad de atrapar el catch
+
+entities:
+  - representacion de una tabla
+  - son clases
+  - los nombres de los entities no llevan el subfijo "Entity" para evitar que se creen con ese
+    nombre en la DB
