@@ -64,4 +64,8 @@ export class CarsService {
       id,
     };
   }
+
+  fillWithSeedDate(cars: Car[]) {
+    this.cars = cars;
+  }
 }
