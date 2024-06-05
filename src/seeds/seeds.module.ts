@@ -4,6 +4,6 @@ import { SeedsController } from './seeds.controller';
 
 @Module({
   controllers: [SeedsController],
-  providers: [SeedsService]
+  providers: [SeedsService],
 })
 export class SeedsModule {}
