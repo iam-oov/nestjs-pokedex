@@ -10,5 +10,5 @@ services:
 entities:
   - representacion de una tabla
   - son clases
-  - los nombres de los entities no llevan el subfijo "Entity" para evitar que se creen con ese
+  - los nombres de las clases tipo entities no llevan el subfijo "Entity" para evitar que se creen con ese
     nombre en la DB
