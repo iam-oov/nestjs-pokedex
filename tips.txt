@@ -3,6 +3,9 @@ controladores:
   - escuchar las solicitudes del cliente y regresar una respuesta
   - manejar la menor cantidad de logica
 
+providers:
+  - ???
+
 services:
   - es muy util que los servicios tengan "throw Error" asi los otros servicios
   pueden llamarlos sin necesidad de atrapar el catch
