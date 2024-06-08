@@ -7,7 +7,7 @@ providers:
   - ???
 
 services:
-  - es muy util que los servicios tengan "throw Error" asi los otros servicios
+  - es muy util que los servicios tengan "THROW ERROR" asi los otros servicios
   pueden llamarlos sin necesidad de atrapar el catch
 
 entities:
