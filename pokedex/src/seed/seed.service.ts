@@ -1,8 +1,7 @@
-import { BadRequestException, Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import axios, { AxiosInstance } from 'axios';
 
 import { PokeResponse } from './interfaces/poke-response.interface';
-// import { PokemonService } from 'src/pokemon/pokemon.service';
 import { InjectModel } from '@nestjs/mongoose';
 import { Pokemon } from 'src/pokemon/entities/pokemon.entity';
 import { Model } from 'mongoose';
@@ -12,7 +11,6 @@ export class SeedService {
   private readonly axios: AxiosInstance = axios;
 
   constructor(
-    // private readonly pokemonService: PokemonService
     @InjectModel(Pokemon.name)
     private readonly pokemonModel: Model<Pokemon>,
   ) {}
