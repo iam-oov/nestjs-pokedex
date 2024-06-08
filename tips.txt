@@ -4,7 +4,8 @@ controladores:
   - manejar la menor cantidad de logica
 
 providers:
-  - ???
+  - algo que puede inyectarse
+  - tienen que estar definidos en el modelo
 
 services:
   - es muy util que los servicios tengan "THROW ERROR" asi los otros servicios
