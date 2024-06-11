@@ -15,7 +15,9 @@ export class PokemonService {
   constructor(
     @InjectModel(Pokemon.name)
     private readonly pokemonModel: Model<Pokemon>,
-  ) {}
+  ) {
+    console.log('PokemonService instantiated', process.env.DEFAULT_LIMIT);
+  }
 
   async create(@Body() createPokemonDto: CreatePokemonDto) {
     createPokemonDto.name = createPokemonDto.name.toLowerCase();
